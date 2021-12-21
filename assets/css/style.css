@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Play', sans-serif;
+}
+
+/*Section - Games*/
+.popular_games {
+	padding: 100px 0;
+}
+
+.title_section {
+	margin: 0 0 90px 0;
+	text-align: center;
+}
+
+.game img {
+	width: 100%;
+}
+
+.game {
+	transition: 0.5s;
+}
+
+.game:hover {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.game h3 {
+	font-size: 25px;
+	margin: 20px 0;
+}
+
+.popular_games img {
+	width: 100%;
+	margin: 40px 0;
+	transition: 0.3s;
+}
+
+.popular_games img:hover {
+	transform: scale(0.9);
+}
+
+@media only screen and (max-width: 768px)
+{
+	.game,
+	.populat_game img {
+		width: 75%;
+		margin: 20px auto;
+	}
+}
