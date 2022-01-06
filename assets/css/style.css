@@ -7,6 +7,10 @@
 	font-family: 'Play', sans-serif;
 }
 
+.navbar-nav {
+	text-center: center;
+}
+
 /*Section - Games*/
 .popular_games {
 	padding: 100px 0;
