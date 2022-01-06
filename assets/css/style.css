@@ -7,7 +7,7 @@
 	font-family: 'Play', sans-serif;
 }
 
-.navbar-nav {
+.navbar navbar-expand-sm justify-content-center {
 	display: flex;
 	justify-content: center;
 }
