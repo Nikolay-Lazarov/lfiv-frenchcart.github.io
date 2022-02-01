@@ -52,6 +52,7 @@
 
 @media only screen and (max-width: 768px)
 {
+	.card card-body
 	.game,
 	.populat_game img {
 		width: 75%;
