@@ -46,6 +46,19 @@
 	transition: 0.3s;
 }
 
+  table td {
+    display: flex;
+  }
+
+  table td::before {
+    content: attr(label);
+    font-weight: bold;
+    width: 120px;
+    min-width: 120px;
+  }
+
+
+
 .popular_games img:hover {
 	transform: scale(0.9);
 }
